@@ -141,134 +141,134 @@ INSERT INTO Pedidos (ClienteID, DataPedido, ValorTotal, Status) VALUES
 -- Inserir detalhamento de itens para os próximos 40 pedidos (IDs de 41 a 80)
 
 -- Itens para PedidoID 44
-INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (44, 9, 1, 79.90, 79.90),
-       (44, 10, 2, 49.90, 99.80),
-       (44, 11, 1, 199.90, 199.90);
+INSERT INTO itenspedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
+VALUES (1, 9, 1, 79.90, 79.90),
+       (1, 10, 2, 49.90, 99.80),
+       (2, 11, 1, 199.90, 199.90);
 
 -- Itens para PedidoID 45
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (45, 12, 1, 299.90, 299.90),
-       (45, 13, 1, 129.90, 129.90);
+VALUES (4, 12, 1, 299.90, 299.90),
+       (4, 13, 1, 129.90, 129.90);
 
 -- Itens para PedidoID 46
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (46, 14, 2, 59.90, 119.80),
-       (46, 12, 1, 89.90, 89.90);
+VALUES (6, 14, 2, 59.90, 119.80),
+       (6, 12, 1, 89.90, 89.90);
 
 -- Itens para PedidoID 47
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (47, 11, 1, 179.90, 179.90),
-       (47, 7, 3, 39.90, 119.70),
-       (47, 6, 1, 249.90, 249.90);
+VALUES (7, 11, 1, 179.90, 179.90),
+       (7, 7, 3, 39.90, 119.70),
+       (7, 6, 1, 249.90, 249.90);
 
 -- Itens para PedidoID 48
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (48, 4, 1, 149.90, 149.90),
-       (48, 1, 1, 179.90, 179.90),
-       (48, 11, 2, 69.90, 139.80);
+VALUES (8, 4, 1, 149.90, 149.90),
+       (8, 1, 1, 179.90, 179.90),
+       (8, 11, 2, 69.90, 139.80);
 
 -- Itens para PedidoID 49
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (49, 12, 1, 99.90, 99.90),
-       (49, 2, 1, 159.90, 159.90);
+VALUES (9, 12, 1, 99.90, 99.90),
+       (9, 2, 1, 159.90, 159.90);
 
 -- Itens para PedidoID 50
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (50, 14, 1, 199.90, 199.90),
-       (50, 15, 2, 119.90, 239.80);
+VALUES (10, 14, 1, 199.90, 199.90),
+       (10, 15, 2, 119.90, 239.80);
 
 -- Itens para PedidoID 51
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (51, 7, 1, 169.90, 169.90),
-       (51, 14, 1, 89.90, 89.90);
+VALUES (11, 7, 1, 169.90, 169.90),
+       (11, 14, 1, 89.90, 89.90);
 
 -- Itens para PedidoID 52
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (52, 11, 1, 249.90, 249.90),
-       (52, 7, 1, 179.90, 179.90),
-       (52, 3, 1, 129.90, 129.90);
+VALUES (12, 11, 1, 249.90, 249.90),
+       (12, 7, 1, 179.90, 179.90),
+       (12, 3, 1, 129.90, 129.90);
 
 -- Itens para PedidoID 53
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (53, 1, 1, 99.90, 99.90),
-       (53, 12, 2, 69.90, 139.80);
+VALUES (33, 1, 1, 99.90, 99.90),
+       (33, 12, 2, 69.90, 139.80);
 
 -- Itens para PedidoID 54
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (54, 13, 1, 149.90, 149.90),
-       (54, 14, 1, 199.90, 199.90);
+VALUES (34, 13, 1, 149.90, 149.90),
+       (34, 14, 1, 199.90, 199.90);
 
 -- Itens para PedidoID 55
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (55, 2, 1, 129.90, 129.90),
-       (55, 1, 3, 59.90, 179.70),
-       (55, 12, 1, 109.90, 109.90);
+VALUES (35, 2, 1, 129.90, 129.90),
+       (35, 1, 3, 59.90, 179.70),
+       (35, 12, 1, 109.90, 109.90);
 
 -- Itens para PedidoID 56
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (56, 13, 1, 89.90, 89.90),
-       (56, 9, 1, 179.90, 179.90);
+VALUES (26, 13, 1, 89.90, 89.90),
+       (26, 9, 1, 179.90, 179.90);
 
 -- Itens para PedidoID 57
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (57, 4, 2, 49.90, 99.80),
-       (57, 1, 1, 159.90, 159.90);
+VALUES (27, 4, 2, 49.90, 99.80),
+       (27, 1, 1, 159.90, 159.90);
 
 -- Itens para PedidoID 58
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (58, 12, 1, 199.90, 199.90),
-       (58, 13, 1, 149.90, 149.90);
+VALUES (28, 12, 1, 199.90, 199.90),
+       (28, 13, 1, 149.90, 149.90);
 
 -- Itens para PedidoID 59
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (59, 14, 1, 79.90, 79.90),
-       (59, 15, 2, 69.90, 139.80);
+VALUES (29, 14, 1, 79.90, 79.90),
+       (29, 15, 2, 69.90, 139.80);
 
 -- Itens para PedidoID 60
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (60, 6, 1, 129.90, 129.90),
-       (60, 7, 1, 179.90, 179.90),
-       (60, 8, 1, 249.90, 249.90);
+VALUES (30, 6, 1, 129.90, 129.90),
+       (30, 7, 1, 179.90, 179.90),
+       (30, 8, 1, 249.90, 249.90);
 
 -- Itens para PedidoID 61
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (61, 9, 1, 299.90, 299.90),
-       (61, 5, 1, 129.90, 129.90);
+VALUES (40, 9, 1, 299.90, 299.90),
+       (40, 5, 1, 129.90, 129.90);
 
 -- Itens para PedidoID 62
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (62, 1, 1, 179.90, 179.90),
-       (62, 12, 2, 99.90, 199.80);
+VALUES (32, 1, 1, 179.90, 179.90),
+       (32, 12, 2, 99.90, 199.80);
 
 -- Itens para PedidoID 63
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (63, 13, 1, 149.90, 149.90),
-       (63, 14, 1, 179.90, 179.90);
+VALUES (32, 13, 1, 149.90, 149.90),
+       (23, 14, 1, 179.90, 179.90);
 
 -- Itens para PedidoID 64
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (64, 5, 1, 199.90, 199.90),
-       (64, 6, 1, 89.90, 89.90),
-       (64, 7, 1, 129.90, 129.90);
+VALUES (24, 5, 1, 199.90, 199.90),
+       (24, 6, 1, 89.90, 89.90),
+       (24, 7, 1, 129.90, 129.90);
 
 -- Itens para PedidoID 65
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (65, 1, 2, 49.90, 99.80),
-       (65, 2, 1, 159.90, 159.90);
+VALUES (25, 1, 2, 49.90, 99.80),
+       (25, 2, 1, 159.90, 159.90);
 
 -- Itens para PedidoID 66
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (66, 3, 1, 199.90, 199.90),
-       (66, 4, 1, 179.90, 179.90),
-       (66, 2, 1, 149.90, 149.90);
+VALUES (26, 3, 1, 199.90, 199.90),
+       (26, 4, 1, 179.90, 179.90),
+       (26, 2, 1, 149.90, 149.90);
 
 -- Itens para PedidoID 67
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (67, 5, 1, 129.90, 129.90),
-       (67, 4, 2, 69.90, 139.80);
+VALUES (27, 5, 1, 129.90, 129.90),
+       (27, 4, 2, 69.90, 139.80);
 
 -- Itens para PedidoID 68
 INSERT INTO ItensPedido (PedidoID, ProdutoID, Quantidade, PrecoUnitario, TotalItem)
-VALUES (68, 5, 1, 199.90, 199.90),
-       (68, 6, 1, 89.90, 89.90);
+VALUES (28, 5, 1, 199.90, 199.90),
+       (28, 6, 1, 89.90, 89.90);
