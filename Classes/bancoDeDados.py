@@ -72,6 +72,11 @@ class BancoDeDados:
         except mysql.connector.Error as err:
             print(f"Erro ao ler pedido: {err}")
             return None
+    def listar_pedidos(self):
+        sql = "SELECT * FROM pedidos"
+        self.cursor.execute(sql)
+        pedidos = self.cursor.fetchall()
+        return pedidos
 
 if __name__=="__main__":
     init = BancoDeDados()

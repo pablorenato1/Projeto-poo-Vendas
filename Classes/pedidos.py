@@ -1,3 +1,6 @@
+from datetime import date
+from decimal import Decimal
+
 class Pedido:
     def __init__(self, banco_de_dados):
         self.banco_de_dados = banco_de_dados
@@ -9,6 +12,7 @@ class Pedido:
             print('2 - Ler Pedido por ID')
             print('3 - Atualizar Pedido')
             print('4 - Deletar Pedido')
+            print('5 - Listar Pedidos')
             print('0 - Sair')
 
             option = input('Escolha uma opção: ')
@@ -21,6 +25,8 @@ class Pedido:
                 self.atualizar_pedido_menu()
             elif option == '4':
                 self.deletar_pedido_menu()
+            elif option == '5':
+                self.listar_pedidos()
             elif option == '0':
                 print("Saindo do menu de pedidos.")
                 break
@@ -103,3 +109,12 @@ class Pedido:
         print("Sistema encerrado.")
         self.banco_de_dados.close_connection()
         exit()
+
+    def listar_pedidos(self):
+        pedidos = self.banco_de_dados.listar_pedidos()
+        print("=" * 60)
+        print("{:<5} | {:<8} | {:<11} | {:<11} | {:<20}".format("ID", "ClientID", "DataPedido", "Valor Total", "Status"))
+        print("-" * 60)
+        for linha in pedidos:
+            print("{:<5} | {:<8} | {:<11} | {:<11} | {:<20}".format(linha[0], linha[1], linha[2].strftime("%Y-%m-%d"), f"{linha[3]:.2f}", linha[4]))
+        pass
